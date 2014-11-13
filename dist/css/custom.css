@@ -1,0 +1,46 @@
+/* 
+ -- Computer Information Association 
+ -- Custom style for the website
+*/
+
+.navbar-wrapper {
+	margin-top: 0;
+}
+
+.navbar-wrapper .container {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+.container>.navbar-header {
+	margin-left: 20px;
+}
+
+.carousel-caption {
+	background: rgba(0,0,0,0.5);
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-top: 0;
+}
+
+.carousel-caption p {
+	padding:0 15%;
+}
+
+.carousel-indicators {
+	bottom: 6px;
+}
+
+.carousel-control {
+	bottom: 20%;
+}
+
+.navbar-inverse {
+	background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+}
