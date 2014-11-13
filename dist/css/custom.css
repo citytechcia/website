@@ -13,6 +13,11 @@
 	width: 100%;
 }
 
+.navbar-wrapper .navbar {
+	border-radius: 0;
+	border: none;
+}
+
 .container>.navbar-header {
 	margin-left: 20px;
 }
@@ -44,3 +49,4 @@
 .navbar-inverse .navbar-brand {
 	color: #FFFFFF;
 }
+
