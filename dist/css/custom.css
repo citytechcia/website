@@ -54,6 +54,10 @@ body{
 	color: #FFFFFF;
 }
 
+.navbar-inverse .navbar-nav>li>a.current{
+	color:#FFF;
+}
+
 .featurette-divider {
 	margin: 40px 0;
 }
