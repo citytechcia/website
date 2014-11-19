@@ -3,6 +3,10 @@
  -- Custom style for the website
 */
 
+body{
+	background:#FFF;
+}
+
 .navbar-wrapper {
 	margin-top: 0;
 }
