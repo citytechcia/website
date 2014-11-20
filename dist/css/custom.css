@@ -3,6 +3,10 @@
  -- Custom style for the website
 */
 
+body{
+	background:#FFF;
+}
+
 .navbar-wrapper {
 	margin-top: 0;
 }
@@ -48,5 +52,19 @@
 
 .navbar-inverse .navbar-brand {
 	color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a.current{
+	color:#FFF;
+}
+
+.featurette-divider {
+	margin: 40px 0;
+}
+
+
+/* Pages offset */
+.cia-pages{
+	padding-top: 100px;
 }
 
