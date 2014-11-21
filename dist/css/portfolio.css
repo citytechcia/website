@@ -9,7 +9,7 @@ ul.accordion{
     line-height: 1.5em;
 }
 ul.accordion li{
-    float:right;
+    float:left;
     width:115px;
     height:480px;
     display:block;
