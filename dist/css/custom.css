@@ -3,6 +3,16 @@
  -- Custom style for the website
 */
 
+body{
+	background:#FFF;
+}
+<<<<<<< HEAD
+.content{
+	background:../../assets/img/portfolio/2.jpg;
+}
+=======
+
+>>>>>>> FETCH_HEAD
 .navbar-wrapper {
 	margin-top: 0;
 }
@@ -50,3 +60,87 @@
 	color: #FFFFFF;
 }
 
+.navbar-inverse .navbar-nav>li>a.current{
+	color:#FFF;
+}
+
+.featurette-divider {
+	margin: 40px 0;
+}
+
+
+/* Pages offset */
+.cia-pages{
+	padding-top: 100px;
+}
+
+<<<<<<< HEAD
+/* image hover over for the event*/
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 280px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 305px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 267px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+=======
+>>>>>>> FETCH_HEAD
