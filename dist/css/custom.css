@@ -6,13 +6,9 @@
 body{
 	background:#FFF;
 }
-<<<<<<< HEAD
 .content{
 	background:../../assets/img/portfolio/2.jpg;
 }
-=======
-
->>>>>>> FETCH_HEAD
 .navbar-wrapper {
 	margin-top: 0;
 }
@@ -74,7 +70,6 @@ body{
 	padding-top: 100px;
 }
 
-<<<<<<< HEAD
 /* image hover over for the event*/
 
 ul.img-list {
@@ -113,7 +108,7 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 280px;
+  height: 250px;
   left: 0;
   position: absolute;
   top: 0;
@@ -142,5 +137,3 @@ span.text-content {
 }
 
 
-=======
->>>>>>> FETCH_HEAD

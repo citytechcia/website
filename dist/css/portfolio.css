@@ -9,11 +9,7 @@ ul.accordion{
     line-height: 1.5em;
 }
 ul.accordion li{
-<<<<<<< HEAD
     float:left;
-=======
-    float:right;
->>>>>>> FETCH_HEAD
     width:115px;
     height:480px;
     display:block;
