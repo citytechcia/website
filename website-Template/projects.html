@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Citytech Computer Club</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Slide Down Box Menu with jQuery and CSS3" />
+        <meta name="keywords" content="citytech, computer, club, citytech computer club"/>
+		<link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="screen"/>
+        <script type="text/javascript" src="javascript/navigation.js"></script>
+        <style>
+			body{
+				background:#333 url(images/3.jpg); 
+				font-family:Arial;
+			}
+			header{
+				background:#333 url(images/computerClub.jpg);
+			}
+			#bodybackgroundpicture{
+				
+				background:#333 url(images/x2.jpg);
+			}
+			p{
+				overflow: auto;
+				background-color:black;
+		   	    width :  220px;
+    		    height : 200px;
+    		    opacity: 0.80 ;
+			}
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+}
+		</style>
+
+</head>
+
+    <body>
+    	<header>
+		<div class="content">
+			<h1 class="title" style="font-family: cursive, Arial, Helvetica, sans-serif">Where Dreams Become True</h1>
+		<img src="images/title.png"> 
+		
+		<form id="search" method="get" action="http://www.google.com/search" align="right">
+        <input type="search" name="q" size="30" maxlength="255">
+        <input type="submit" name="search" value="Search">
+   		</form>
+		</div>
+		
+				<nav>
+				<ul id="sdt_menu" class="sdt_menu">
+				<li>
+					<a href="index.html">
+						<img src="images/2.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+						<span class="sdt_link">About Club</span>
+						<span class="sdt_descr">Get to know the Club</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="portfolio.html">
+						<img src="images/1.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Portfolio</span>
+							<span class="sdt_descr">Our work</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+							<a href="clubhour.html">Club Hours</a>
+							<a href="registration.html">Join Us</a>
+							<a href="login.html">Log In</a>
+					</div>
+				</li>
+				<li>
+					<a href="inspiration.html">
+						<img src="images/3.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Inspiration</span>
+							<span class="sdt_descr">Where ideas get born</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="research.html">
+						<img src="images/4.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Research</span>
+							<span class="sdt_descr">Programming Challenges</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="blog.html">
+						<img src="images/5.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Blog</span>
+							<span class="sdt_descr">Know More About Technology</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<img src="images/6.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Projects</span>
+							<span class="sdt_descr">Code</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+						<a href="job.html">Job Board Website</a>
+						<a href="map.html">CityTech Maps</a>
+					</div>
+				</li>
+			</ul>
+			</nav>
+			</header>
+			
+			<div id="bodybackgroundpicture">
+			<section>
+		      
+		       <table>
+		          <td><a href="http://www.citytech.cuny.edu/academics/deptsites/cst/chairsCorner.aspx" target="_blank"><img src="images/cst.jpg" width="200" height="200"></td>
+		         <td><p>City Tech’s OpenLab is an open-source digital platform where students, faculty, and staff can meet to learn, work, and share their ideas. Its goals are to 
+		         	support teaching and learning, enable connection and collaboration, and strengthen the intellectual and social life of the college community.</p></td>
+		         <a href="http://www.citytech.cuny.edu/index.aspx" target="_blank"> <img src="images/x3.jpg" alt="New York City College Of Technology" align="right" width="300" height="200">
+		         	 <span class="text-content"><span>NYCCT</span>
+		         </a>
+		       </table>
+			   
+	<br>		  
+	<ul class="img-list">
+	
+	<li>
+	<a href="http://www.citytech.cuny.edu/academics/deptsites/eetech/chairsCorner.aspx" target="_blank"><img src="images/et.jpg" width="150" height="150">
+	<span class="text-content"><span>Electrical and Telecommunications Engineering Technology</span></a>
+	</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+  <li>
+    <a href="http://www.citytechrobotics.org/" target="_blank"><img src="images/cub.jpg" width="150" height="150" />
+	<span class="text-content"><span>The Robotics & Intelligent Systems Laboratory</span></a>
+</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li>
+ <a href="http://www.citytech.cuny.edu/aboutus/newsevents/2010fa/mechatronics/" target="_blank"><img src="images/st.jpg" width="150" height="150" />
+	<span class="text-content"><span>Statewide Science & Technology Entry Program (STEP)</span></a>
+</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li>
+ <a href="http://www.mtccitytech.org/summer-robotics-program-photos" target="_blank"><img src="images/ctm.jpg" width="150" height="150" />
+	<span class="text-content"><span>The Mechatronics Technology Center</span></a>	
+</li>
+<br>
+<li>
+	<a href="http://cyberaces.org/" target="_blank"><img src="images/ca.jpg" width="150" height="150">
+	<span class="text-content"><span>Cyber Aces</span></a>
+	</li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li>
+	<a href="http://www.citytech.cuny.edu/academics/deptsites/schoolofartsandsciences/stem.shtml" target="_blank"><img src="images/stem.jpg" width="150" height="150">
+	<span class="text-content"><span>STEM</span></a>
+	</li>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li>
+	<a href="http://openlab.citytech.cuny.edu/undergraduateresearch/2014/04/29/noyce-internships-and-scholarships/" target="_blank"><img src="images/sr.jpg" width="150" height="150">
+	<span class="text-content"><span>STEM Research Requirements</span></a>
+	</li>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li>
+	<a href="http://openlab.citytech.cuny.edu/undergraduateresearch/2014/04/29/noyce-internships-and-scholarships/" target="_blank"><img src="images/n.jpg" width="150" height="150">
+	<span class="text-content"><span>NOYCE Internships and Scholarships</span></a>
+	</li>
+
+</ul>
+		
+	</section>
+	
+	<aside>
+	<div class="navbox">
+		<ul class="nav">
+			<li><a href="http://www.w3schools.com/html/html_xhtml.asp" target="_blank">XHTML</a></li>	
+			<li><a href="http://www.cplusplus.com/files/tutorial.pdf"target="_blank">C++</a></li>
+			<li><a href="http://mootorial.com/"target="_blank">Mootools</a></li>
+			<li><a href="http://www.w3schools.com/html/html5_intro.asp"target="_blank">HTML5</a></li>
+			<li><a href="http://www.w3schools.com/css/DEFAULT.asp"target="_blank">CSS</a></li>
+			<li><a href="http://www.w3schools.com/jquery/default.asp"target="_blank">jQuery</a></li>
+			<li><a href="http://www.w3schools.com/ajax/default.asp"target="_blank">Ajax</a></li>
+			<li><a href="http://www.w3schools.com/php/default.asp"target="_blank">PHP</a></li>
+			<li><a href="http://www.perl.org/books/beginning-perl/"target="_blank">Perl</a></li>
+		</ul>
+	</div>
+
+
+	</aside>
+	
+	<!-- Footer Start -->
+	<style type="text/css">#footer { background-color:#387497; }</style>
+<div id="footerSpacing"></div>
+
+<div id="footer">
+			<div class="marginTop7Left15 padtext">&copy; New York City College of Technology</div>
+			<div class="marginTop7Right10Left10 padtext">|</div>
+			<div id="addressPhone" class="padtext">300 Jay Street &bull; Brooklyn, NY 11201 &nbsp;&bull;&nbsp; 718.260.5500&nbsp;</div>
+			
+            <div style="float:right; padding-right:5px;"><a class="margpad0" href="http://www.citytech.cuny.edu/index.aspx" target="_blank"><img alt="City Tech is CUNY" title="City Tech is CUNY" src="images/citytech_logo.gif" border="0" width="75" height="40" /></a></div>
+		<!--	<div style="float:right; padding-right:5px;"><a class="margpad0" href="http://www.cuny.edu" target="_blank"><img alt="City Tech is CUNY" title="City Tech is CUNY" src="images/cuny_logo.gif" border="0" width="75" height="40" /></a></div> -->
+</div> 
+	<div id="footer2nd"><span style="float:left;">&nbsp;Additional View Options:     </span>
+    <a href="http://assistive.usablenet.com/tt/referrer" title="Text Only">Text Only</a>
+    <span>|</span>
+    <a href="http://www.browsealoud.com/page.asp?pg_id=80096" title="Download BrowseAloud" target="_blank">Audio Aid</a>
+    <span>|</span>
+    <a href="http://www.facebook.com/pages/New-York-City-College-of-Technology-City-Tech-News/138483227619" title="Facebook" target="_blank">Facebook</a>
+    <span>|</span>
+    <a href="http://www.youtube.com/user/NewYorkCityTech/videos" title="YouTube" target="_blank">YouTube</a>
+    <span>|</span>
+    <a href="http://twitter.com/CityTechNews" title="Twitter" target="_blank">Twitter</a>
+    <span>|</span>
+    <a href="http://www.linkedin.com/groups?gid=56096" title="LinkedIn" target="_blank">LinkedIn</a>
+    <span>|</span>
+    <a href="http://ctparents2010.blogspot.com/" title="Parents Blog" target="_blank">Parents Blog</a>
+    <span>|</span>
+    <a href="http://www.facebook.com/pages/New-York-City-College-of-Technology/90938054258" title="Alumni Facebook" target="_blank">Alumni Facebook</a>
+    <span style="margin:0px 2px 0px 0px;">&nbsp &nbsp;</span>
+    <a href="/aboutus/emp_opp.shtml" title="Employment Opportunities">Job Openings</a>
+   
+    
+</div>
+</div>
+
+<!-- End of footer -->
+
+
+      <!--  <footer>
+        	<span class="reference">
+            
+                <a href="http://www.citytech.cuny.edu/">New York City College Of Thecnology</a>
+				<a href="http://www.cuny.edu/index.html">CUNY</a>
+            <span>
+		</footer> -->
+
+       <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+				/**
+				* for each menu element, on mouseenter, 
+				* we enlarge the image, and show both sdt_active span and 
+				* sdt_wrap span. If the element has a sub menu (sdt_box),
+				* then we slide it - if the element is the last one in the menu
+				* we slide it to the left, otherwise to the right
+				*/
+                $('#sdt_menu > li').bind('mouseenter',function(){
+					var $elem = $(this);
+					$elem.find('img')
+						 .stop(true)
+						 .animate({
+							'width':'170px',
+							'height':'170px',
+							'left':'0px'
+						 },400,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_wrap')
+					     .stop(true)
+						 .animate({'top':'140px'},500,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_active')
+					     .stop(true)
+						 .animate({'height':'170px'},300,function(){
+						var $sub_menu = $elem.find('.sdt_box');
+						if($sub_menu.length){
+							var left = '170px';
+							if($elem.parent().children().length == $elem.index()+1)
+								left = '-170px';
+							$sub_menu.show().animate({'left':left},200);
+						}	
+					});
+				}).bind('mouseleave',function(){
+					var $elem = $(this);
+					var $sub_menu = $elem.find('.sdt_box');
+					if($sub_menu.length)
+						$sub_menu.hide().css('left','0px');
+					
+					$elem.find('.sdt_active')
+						 .stop(true)
+						 .animate({'height':'0px'},300)
+						 .andSelf().find('img')
+						 .stop(true)
+						 .animate({
+							'width':'0px',
+							'height':'0px',
+							'left':'85px'},400)
+						 .andSelf()
+						 .find('.sdt_wrap')
+						 .stop(true)
+						 .animate({'top':'25px'},500);
+				});
+            });
+       </script> 
+    </body>
+</html>

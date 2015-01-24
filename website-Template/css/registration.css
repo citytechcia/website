@@ -1,0 +1,25 @@
+/*alignment for submit form*/
+#alignment { 
+	    	
+	    	background: gray;
+			padding: 1em;
+			border: 2px solid yellow}
+	   
+		label {
+			float: left;
+			width: 10em;
+			text-align: right;}
+		input , textarea, #time{
+			margin-left: 1em;
+			margin-bottom: .5em;}
+		#major{
+			margin-left: 10em;
+			margin-bottom: .5em;
+		}	
+		
+		#button {
+			margin-left: 8em; }
+		/*alignment for submit form End*/
+body{
+	color: black;
+}		

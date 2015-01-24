@@ -1,0 +1,114 @@
+body{
+	color: gray;
+	background-color:gray;
+	font-size: 92.5%;
+	width: 1020px;
+	margin: 0 auto;
+	padding: 1em;
+	
+			}
+	h1{
+		color: white;
+
+	}	
+	
+	section {
+	clear: right;
+	padding: 0 20px;
+	width: 750px;
+	float: right;
+}
+	/* aside CSS design */
+	aside{
+		margin-top: 100px;
+	}
+	
+	.navbox {
+	position: relative;
+	float: left;
+}
+
+ul.nav {
+	list-style: none;
+	display: block;
+	width: 200px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	padding: 60px 0 60px 0;
+	background: url(shad2.png) no-repeat;
+	opacity: 0.70 ;
+	filter:alpha(opacity=80);
+	-webkit-background-size: 50% 100%;
+}
+
+li {
+	margin: 5px 0 0 0;
+}
+
+ul.nav li a {
+	-webkit-transition: all 0.3s ease-out;
+	background: #cbcbcb  no-repeat;
+	opacity: .80px;
+	color: #174867;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-top-right-radius: 10px;
+ 	-webkit-border-bottom-right-radius: 10px;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	-webkit-box-shadow: 2px 2px 4px #888;
+}
+
+ul.nav li a:hover {
+	background: #ebebeb  no-repeat;
+	color: #67a5cd;
+	padding: 7px 15px 7px 30px;
+}
+/* end of aside CSS design */
+
+#footerSpacing { height:3px; clear:both; }
+
+#footer {width:1020px; height:40px; margin:3px auto 0px auto; background-color:black; opacity:0.6; filter:alpha(opacity=60); clear: left; position:relative; z-index:10;}
+#footer { background-color:black; } /*not working here - change elsewhere*/
+
+#footer div {color:#FFFFFF; float:left; }
+#footer div.padtext {padding-top:6px;}
+
+#footer a {height:22px; color:#FFFFFF; margin:0px 0px 0px 0px; padding:7px 0px 0px 0px; float:left; text-decoration:none; }
+#footer a:hover {background-color:black;opacity:0.6; filter:alpha(opacity=60); !important;}
+#footer .margpad0 { margin:0; padding:0;}
+
+#footer #addressPhone{height:22px; color:#FFFFFF; margin:0px 8px 0px 0px; padding:13px 0px 0px 0px; float:left; text-decoration:none; font-weight:normal; }
+
+#footer .marginTop7Left15 {margin:7px 0px 0px 15px;}
+#footer .marginTop7Right10Left10 {margin:15px 10px 0px 10px;}
+
+
+#footer2nd { color:gray; display:block; width:1000px; height:23px; border-bottom:solid 1px #387497; margin-top:0px !important;  margin-left:auto; margin-right:auto; margin-bottom:10px; font-weight:normal; font-size:15px; padding:0px !important;}
+#footer2nd a { text-decoration:none; color:#185477; display:inline-block; padding:5px 2px 5px 2px; float:left; }
+#footer2nd span{ display:inline-block; padding:5px 2px 5px 2px; float:left; margin:0; }
+#footer2nd a:hover { color:#fff; background-color:#66ADBF;   }
+
+			span.reference{
+				
+				padding: 30px;
+				left:50px;
+				bottom:50px;
+				font-size:12px;
+							}
+			span.reference a{
+				color:purple;
+				text-transform:uppercase;
+				text-decoration:none;
+				text-shadow:1px 1px 1px #000;
+				margin-right:30px;
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			ul.sdt_menu{
+				margin-top:80px;
+				margin-bottom: 50px;
+			}
+			

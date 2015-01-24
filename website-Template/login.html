@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Citytech Computer Club </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Slide Down Box Menu with jQuery and CSS3" />
+        <meta name="keywords" content="computer club, citytech, computer, club"/>
+		<link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="screen"/>
+      
+         <link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('h1',{ textShadow: '1px 1px #fff'});
+			Cufon.replace('h2',{ textShadow: '1px 1px #fff'});
+			Cufon.replace('h3',{ textShadow: '1px 1px #000'});
+			Cufon.replace('.back');
+		</script>
+		
+        <style>
+			body{
+				background:#333 url(images/home_page_back.jpg); 
+				font-family:Arial;
+			}
+			header{
+				background:#333 url(images/computerClub.jpg);
+			}
+			#bodybackgroundpicture{
+				
+				background:#333 url(images/whitebackground.jpg);
+			}
+			h2{
+				color:#045FB4;
+			}
+			#space{
+				color:#E6E6E6;
+			}
+			
+		</style>
+    </head>
+
+    <body>
+    	<header>
+		<div class="content" >
+		<h1 class="title" style="font-family: cursive, Arial, Helvetica, sans-serif">Where Dreams Become True</h1>
+		<img src="images/title.png"> 
+		
+		<form id="search" method="get" action="http://www.google.com/search" align="right">
+        <input type="search" name="q" size="30" maxlength="255">
+        <input type="submit" name="search" value="Search">
+   		</form>
+   		
+		</div>
+		
+		<nav>
+				<ul id="sdt_menu" class="sdt_menu">
+				<li>
+					<a href="index.html">
+						<img src="images/2.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+						<span class="sdt_link">About Club</span>
+						<span class="sdt_descr">Get to know the Club</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="portfolio.html">
+						<img src="images/1.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Portfolio</span>
+							<span class="sdt_descr">Our work</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+							<a href="clubhour.html">Club Hours</a>
+							<a href="registration.html">Join Us</a>
+							<a href="login.html">Log In</a>
+					</div>
+				</li>
+				<li>
+					<a href="inspiration.html">
+						<img src="images/3.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Inspiration</span>
+							<span class="sdt_descr">Where ideas get born</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="research.html">
+						<img src="images/4.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Research</span>
+							<span class="sdt_descr">Programming Challenges</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="blog.html">
+						<img src="images/5.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Blog</span>
+							<span class="sdt_descr">Know More About Technology</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<img src="images/6.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Projects</span>
+							<span class="sdt_descr">Code</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+						<a href="job.html">Job Board Website</a>
+						<a href="map.html">CityTech Maps</a>
+					</div>
+				</li>
+			</ul>
+			</nav>
+			</header>
+
+			<div id="bodybackgroundpicture">
+			<div class="wrapper">
+			<h3 id="space"></span>...</h3>
+			<h2 align="center">Welcome to CityTech Computer Club</h2>
+			<div class="content">
+				<div id="form_wrapper" class="form_wrapper">
+					<form class="register">
+						<h3>Register</h3>
+						<div class="column">
+							<div>
+								<label>First Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Last Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Website:</label>
+								<input type="text" value="http://"/>
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="column">
+							<div>
+								<label>Username:</label>
+								<input type="text"/>
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Email:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Password:</label>
+								<input type="password" />
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="remember">
+								<input type="checkbox" />
+								<span>Send me updates</span>
+							</div>
+							<input type="submit" value="Register" />
+							<a href="index.html" rel="login" class="linkform">You have an account already? Log in here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="login active">
+						<h3>Login</h3>
+						<div>
+							<label>Username:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div>
+							<label>Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+							<input type="password" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+							<input type="submit" value="Login"></input>
+							<a href="register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="forgot_password">
+						<h3>Forgot Password</h3>
+						<div>
+							<label>Username or Email:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<input type="submit" value="Send reminder"></input>
+							<a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+							<a href="register.html" rel="register" class="linkform">You don't have an account? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<a class="back" href="http://tympanus.net/codrops/2011/01/06/animated-form-switching/">back to the Codrops tutorial</a>
+		</div>
+		
+
+		<!-- The JavaScript -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+					//the form wrapper (includes all forms)
+				var $form_wrapper	= $('#form_wrapper'),
+					//the current form is the one with class active
+					$currentForm	= $form_wrapper.children('form.active'),
+					//the change form links
+					$linkform		= $form_wrapper.find('.linkform');
+						
+				//get width and height of each form and store them for later						
+				$form_wrapper.children('form').each(function(i){
+					var $theForm	= $(this);
+					//solve the inline display none problem when using fadeIn fadeOut
+					if(!$theForm.hasClass('active'))
+						$theForm.hide();
+					$theForm.data({
+						width	: $theForm.width(),
+						height	: $theForm.height()
+					});
+				});
+				
+				//set width and height of wrapper (same of current form)
+				setWrapperWidth();
+				
+				/*
+				clicking a link (change form event) in the form
+				makes the current form hide.
+				The wrapper animates its width and height to the 
+				width and height of the new current form.
+				After the animation, the new form is shown
+				*/
+				$linkform.bind('click',function(e){
+					var $link	= $(this);
+					var target	= $link.attr('rel');
+					$currentForm.fadeOut(400,function(){
+						//remove class active from current form
+						$currentForm.removeClass('active');
+						//new current form
+						$currentForm= $form_wrapper.children('form.'+target);
+						//animate the wrapper
+						$form_wrapper.stop()
+									 .animate({
+										width	: $currentForm.data('width') + 'px',
+										height	: $currentForm.data('height') + 'px'
+									 },500,function(){
+										//new form gets class active
+										$currentForm.addClass('active');
+										//show the new form
+										$currentForm.fadeIn(400);
+									 });
+					});
+					e.preventDefault();
+				});
+				
+				function setWrapperWidth(){
+					$form_wrapper.css({
+						width	: $currentForm.data('width') + 'px',
+						height	: $currentForm.data('height') + 'px'
+					});
+				}
+				
+				/*
+				for the demo we disabled the submit buttons
+				if you submit the form, you need to check the 
+				which form was submited, and give the class active 
+				to the form you want to show
+				*/
+				$form_wrapper.find('input[type="submit"]')
+							 .click(function(e){
+								e.preventDefault();
+							 });	
+			});
+        </script>
+
+
+	<!-- Footer Start -->
+	<style type="text/css">#footer { background-color:#AEB404; }</style>
+<div id="footerSpacing"></div>
+
+<div id="footer">
+			<div class="marginTop7Left15 padtext">&copy; New York City College of Technology</div>
+			<div class="marginTop7Right10Left10 padtext">|</div>
+			<div id="addressPhone" class="padtext">300 Jay Street &bull; Brooklyn, NY 11201 &nbsp;&bull;&nbsp; 718.260.5500&nbsp;</div>
+			
+            <div style="float:right; padding-right:5px;"><a class="margpad0" href="http://www.citytech.cuny.edu/index.aspx" target="_blank"><img alt="City Tech is CUNY" title="City Tech is CUNY" src="images/citytech_logo.gif" border="0" width="75" height="40" /></a></div>
+		<!--	<div style="float:right; padding-right:5px;"><a class="margpad0" href="http://www.cuny.edu" target="_blank"><img alt="City Tech is CUNY" title="City Tech is CUNY" src="images/cuny_logo.gif" border="0" width="75" height="40" /></a></div> -->
+</div> 
+	<div id="footer2nd"><span style="float:left">&nbsp;Additional View Options:     </span>
+    <a href="http://assistive.usablenet.com/tt/referrer" title="Text Only">Text Only</a>
+    <span>|</span>
+    <a href="http://www.browsealoud.com/page.asp?pg_id=80096" title="Download BrowseAloud" target="_blank">Audio Aid</a>
+    <span>|</span>
+    <a href="http://www.facebook.com/pages/New-York-City-College-of-Technology-City-Tech-News/138483227619" title="Facebook" target="_blank">Facebook</a>
+    <span>|</span>
+    <a href="http://www.youtube.com/user/NewYorkCityTech/videos" title="YouTube" target="_blank">YouTube</a>
+    <span>|</span>
+    <a href="http://twitter.com/CityTechNews" title="Twitter" target="_blank">Twitter</a>
+    <span>|</span>
+    <a href="http://www.linkedin.com/groups?gid=56096" title="LinkedIn" target="_blank">LinkedIn</a>
+    <span>|</span>
+    <a href="http://ctparents2010.blogspot.com/" title="Parents Blog" target="_blank">Parents Blog</a>
+    <span>|</span>
+    <a href="http://www.facebook.com/pages/New-York-City-College-of-Technology/90938054258" title="Alumni Facebook" target="_blank">Alumni Facebook</a>
+    <span style="margin:0px 2px 0px 0px;">&nbsp &nbsp;</span>
+    <a href="/aboutus/emp_opp.shtml" title="Employment Opportunities">Job Openings</a>
+   
+    
+</div>
+</div>
+<!-- End of footer -->
+
+
+      <!--  <footer>
+        	<span class="reference">
+            
+                <a href="http://www.citytech.cuny.edu/">New York City College Of Thecnology</a>
+				<a href="http://www.cuny.edu/index.html">CUNY</a>
+            <span>
+		</footer> -->
+
+       <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+				/**
+				* for each menu element, on mouseenter, 
+				* we enlarge the image, and show both sdt_active span and 
+				* sdt_wrap span. If the element has a sub menu (sdt_box),
+				* then we slide it - if the element is the last one in the menu
+				* we slide it to the left, otherwise to the right
+				*/
+                $('#sdt_menu > li').bind('mouseenter',function(){
+					var $elem = $(this);
+					$elem.find('img')
+						 .stop(true)
+						 .animate({
+							'width':'170px',
+							'height':'170px',
+							'left':'0px'
+						 },400,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_wrap')
+					     .stop(true)
+						 .animate({'top':'140px'},500,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_active')
+					     .stop(true)
+						 .animate({'height':'170px'},300,function(){
+						var $sub_menu = $elem.find('.sdt_box');
+						if($sub_menu.length){
+							var left = '170px';
+							if($elem.parent().children().length == $elem.index()+1)
+								left = '-170px';
+							$sub_menu.show().animate({'left':left},200);
+						}	
+					});
+				}).bind('mouseleave',function(){
+					var $elem = $(this);
+					var $sub_menu = $elem.find('.sdt_box');
+					if($sub_menu.length)
+						$sub_menu.hide().css('left','0px');
+					
+					$elem.find('.sdt_active')
+						 .stop(true)
+						 .animate({'height':'0px'},300)
+						 .andSelf().find('img')
+						 .stop(true)
+						 .animate({
+							'width':'0px',
+							'height':'0px',
+							'left':'85px'},400)
+						 .andSelf()
+						 .find('.sdt_wrap')
+						 .stop(true)
+						 .animate({'top':'25px'},500);
+				});
+            });
+       </script> 
+    </body>
+</html>
