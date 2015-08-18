@@ -6,13 +6,9 @@
 body{
 	background:#FFF;
 }
-<<<<<<< HEAD
 .content{
 	background:../../assets/img/portfolio/2.jpg;
 }
-=======
-
->>>>>>> citytechcia/master
 .navbar-wrapper {
 	margin-top: 0;
 }
@@ -74,7 +70,6 @@ body{
 	padding-top: 100px;
 }
 
-<<<<<<< HEAD
 /* image hover over for the event*/
 
 ul.img-list {
@@ -140,7 +135,12 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+/* Just some styles to set the page layout. */
+{margin:0;padding:0;font-family:Arial, Verdana, sans-serif;}
+			
+#container {width:960px;margin:0 auto;padding-bottom:40px;}
+#examples {margin-top:60px;}
+			
+ .clear {clear:both;}
+		
 
-
-=======
->>>>>>> citytechcia/master

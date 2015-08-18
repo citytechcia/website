@@ -18,11 +18,29 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     <![endif]-->
 
     <!-- Custom styles -->
     <link href="dist/css/carousel.css" rel="stylesheet">
     <link href="dist/css/custom.css" rel="stylesheet">
+      
+    <style>
+      body{
+        background-image: url("images/bridge.jpg");
+      }
+    </style>
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -30,11 +48,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-<<<<<<< HEAD
          <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-=======
-        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
->>>>>>> citytechcia/master
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,19 +61,11 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-right">
-<<<<<<< HEAD
-                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfofio.html">Portfolio</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery.html"class="current">Gallery</a></li>
                 <li><a href="event.html">Events</a></li>
-=======
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="gallery.html" class="current">Gallery</a></li>
-                <li><a href="#">Events</a></li>
->>>>>>> citytechcia/master
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://github.com/citytechcia" role="button" target="_blank">
                 <i class="fa fa-github fa-2x"></i>
@@ -77,61 +83,77 @@
 
       </div>
     </div>
-<div class="container cia-pages">
-  <h1>Gallery</h1>
-    <div class="row gallery">
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="CIA officers & members"><img src="assets/img/event/IMG_3123.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Kamar with CIA poster"><img src="assets/img/event/IMG_3112.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Arefin & his friend"><img src="assets/img/event/IMG_3119.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="CIA Quiz Bowl 1st Place Winner"><img src="assets/img/event/IMG_3115.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="CIA Quiz Bowl 2nd Place Winner"><img src="assets/img/event/IMG_3116.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="CIA Quiz Bowl 3rd Place Winner"><img src="assets/img/event/IMG_3118.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="CityTech Students"><img src="assets/img/event/club_fair_01.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Club Fiat Fall 2014"><img src="assets/img/event/cia_members_fall_2014.jpg" class="thumbnail img-responsive"></a></div>
-      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Proudly CIA member"><img src="assets/img/event/cia_pride.jpg" class="thumbnail img-responsive"></a></div>
-    </div>
+<div id="wrapper">
 
-<hr class="featurette-divider">
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Computer Information Association &middot; <!--a href="#">Privacy</a> &middot; <a href="#">Terms</a--></p>
-      </footer>
+			<div id="main">
+				<div id="reel">
 
-    </div><!-- /.container -->
+					<!-- Header Item -->
+					
+						<div id="header" class="item" data-width="400">
+							<div class="inner">
+								<h1>Galary</h1>
+								<p>CIA club activity<br />
+								& fun memories</p>
+							</div>
+						</div>
+					
+					<!-- Thumb Items -->
 
+						<article class="item thumb" data-width="282">
+							<h2>Proudly CIA member</h2>
+							<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="384">
+							<h2>Club Fair</h2>
+							<a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="274">
+							<h2>Unity that makes us different</h2>
+							<a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="282">
+							<h2>Mock Interview</h2>
+							<a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="476">
+							<h2>First Place Holder at CIA QuizeBowl</h2>
+							<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="232">
+							<h2>Third Place at CIA QuizeBowl</h2>
+							<a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="352">
+							<h2>Boundless 2nd at CIA QuizeBowl</h2>
+							<a href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt=""></a>
+						</article>
+						
+						<article class="item thumb" data-width="348">
+							<h2>The Spectators</h2>
+							<a href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt=""></a>
+						</article>
 
+					<!-- Filler Thumb Items (just for demonstration purposes) -->
+						<article class="item thumb" data-width="476"><h2>First place holder at CIA QuizeBowl</h2><a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="232"><h2>The Pursuit</h2><a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="352"><h2>Boundless</h2><a href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="348"><h2>The Spectators</h2><a href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="282"><h2>Proudly CIA member</h2><a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="384"><h2>2014 Club Fair</h2><a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="274"><h2>Unity that makes us different</h2><a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" alt=""></a></article>
+						<article class="item thumb" data-width="282"><h2>Mock Interview</h2><a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" alt=""></a></article>
 
-<div id="cia-gallery-modal" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-  <div class="modal-content">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">×</button>
-    <h3 class="modal-title">Heading</h3>
-  </div>
-  <div class="modal-body">
-    <img class="cia-modal-image img-responsive" src="">
-  </div>
-  <div class="modal-footer">
-    <button class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-   </div>
-  </div>
-</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+				</div>
+			</div>
+		
 
-    <script type="text/javascript">
-    $(document).ready(function(){  
-      $('.row .thumbnail').click(function(){
-        imgSrc = $(this).attr('src');
-        imgTitle = $('a').has(this).attr('title');  
-        $('.modal-title').html(imgTitle);
-        $(".cia-modal-image").attr('src', imgSrc);
-        $('#cia-gallery-modal').modal('show');
-      });
-    });
-    </script>
+		</div>
   </body>
 </html>

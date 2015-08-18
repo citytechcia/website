@@ -1,0 +1,30 @@
+div { 
+		margin: 0;
+  		padding: 0;
+}
+
+#test{
+position: absolute;
+}
+
+#invis {
+	opacity: 0.0;
+    filter: alpha(opacity=00);
+    position: absolute;
+    left: -9999px;
+
+}
+#year :hover {
+    background: #1a1f2c;
+}
+
+.gallery-container {
+padding-left: 100px;
+ padding-right: 100px;
+ position:relative;
+}
+
+.gallery-holder{
+position:relative;
+}
+
